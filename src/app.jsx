@@ -12,6 +12,7 @@ function Link() {
           <Route path="/useState1" element={<UseState1 />} />
           <Route path="/useState2" element={<UseState2 />} />
           <Route path="/useState3" element={<UseState3 />} />
+          <Route path="/useState4" element={<UseState4 />} />
         </Routes>
       </Router>
     </div>

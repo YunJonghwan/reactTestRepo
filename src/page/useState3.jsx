@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-function useState2() {
+function useState3() {
   //* 기본값이 false로 지정된 boolean 타입의 변수
   //* 버튼을 눌를 경우 버튼 이름 변경
   //* 처음은 꺼짐으로 버튼을 누를 경우 반대의 값이 나옴
@@ -15,4 +15,4 @@ function useState2() {
   )
 }
 
-export default useState2
+export default useState3
