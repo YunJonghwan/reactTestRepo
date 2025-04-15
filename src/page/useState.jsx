@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 
 
-function useState1() {
-  const [count, setCount] = useState(0);
+function useStateExample() {
+  const [count, setCount] = useState(5);
+  console.log(count);
   return (
     <div>
-      <button onClick={() => setCount(count + 1)}>Click Me ({count})</button>
+      <button onClick={() => setCount(0)}>리셋</button>
     </div>
   )
 }
 
-export default useState1
+export default useStateExample
