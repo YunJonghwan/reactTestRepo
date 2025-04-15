@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
-import Test from './page/useEffect';
+import UseState1 from './page/useState1';
 
 function Link() {
   return (
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<Test />} />
+          <Route path="/useState1" element={<UseState1 />} />
         </Routes>
       </Router>
     </div>
