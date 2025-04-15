@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-function test() {
+function useState1() {
   const [count, setCount] = useState(0);
   return (
     <div>
@@ -10,4 +10,4 @@ function test() {
   )
 }
 
-export default test
+export default useState1
