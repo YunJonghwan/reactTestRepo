@@ -1,11 +1,17 @@
-import { useEffect } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
+import Test from './page/useEffect';
 
-function Hello() {
-  useEffect(() => {
-    console.log('컴포넌트가 화면에 나타났어요!');
-  }, []); // 빈 배열이면 "처음 한 번만 실행"
-
-  return <h1>안녕하세요!</h1>;
+function Link() {
+  return (
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Test />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
-export default Hello
+export default Link;
